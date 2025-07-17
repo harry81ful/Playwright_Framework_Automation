@@ -1,0 +1,2 @@
+Found 2 matching products with name "Blue Top"
+Href value: /product_details/1

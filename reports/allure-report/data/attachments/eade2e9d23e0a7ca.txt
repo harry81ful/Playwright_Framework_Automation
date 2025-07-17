@@ -1,0 +1,2 @@
+Entered name: Theresia Hackett-Adams
+Test passed: UITC1 - should display the correct heading on the home page

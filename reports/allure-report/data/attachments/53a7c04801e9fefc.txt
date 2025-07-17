@@ -1,0 +1,2 @@
+Entered name: Devin Mante
+Test passed: should display the correct heading on the home page
