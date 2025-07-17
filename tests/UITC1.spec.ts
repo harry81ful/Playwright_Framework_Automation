@@ -37,5 +37,6 @@ test.describe("@UITC1 - New user Registeration", () => {
     await registrationFormPage.clickCreateAccountButton();
     await registrationFormPage.accountCreatedText.waitFor({ state: "visible" });
     await expect(registrationFormPage.accountCreatedText).toBeVisible();
+    // Click the continue button
   });
 });
