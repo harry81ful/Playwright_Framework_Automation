@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6336","should display the correct heading on the home page","","Wed Jul 16 23:35:04 UTC 2025","passed","Wed Jul 16 23:35:11 UTC 2025","UITC1 - Home Page Tests","tests\UITC1.spec.ts","",""
