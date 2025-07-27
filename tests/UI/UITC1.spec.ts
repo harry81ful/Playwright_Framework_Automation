@@ -1,5 +1,4 @@
-import { sign } from "crypto";
-import { test, expect } from "../fixtures/pomFixtures";
+import { test, expect } from "../../fixtures/pomFixtures";
 
 test.describe("@UITC1 - New user Registeration", () => {
   test.beforeEach(async ({ page, homePage }) => {

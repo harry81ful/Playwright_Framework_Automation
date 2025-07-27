@@ -1,27 +1,4 @@
 # Automation Excercise
-# Getting Started
-
-- Cloning the Repository:
-
-  - Explains prerequisites like installing VS Code, Git, and Node.js.
-  - Guides users on how to clone the repository from GitHub.
-
-- Setting Up the Environment:
-
-  - Details how to install dependencies using npm install.
-  - Mentions handling dependency errors and ensuring the correct project structure.
-
-- Running Tests:
-  - Describes how to run the entire test suite using npm test or npx cucumber-js.
-  - Explains how to run specific feature files or scenarios using file paths or tags (e.g., @ui, @api).
-- Generating Step Definitions:
-
-  - Provides commands to generate missing step definitions using npx cucumber-js --dry-run.
-
-- Additional Notes:
-  - Highlights the importance of maintaining the configured file structure.
-  - Warns about potential issues if the structure or step definitions are not unique.
-  - This document is essential for onboarding new team members and ensuring consistent test execution across the team.
 
 ## Framework and methodologies used
 
@@ -30,7 +7,7 @@
   - Playwright is used to develop the test suite as it provides balanced approach towards both UI and API testing
   - As playwright is a product of microsoft there is more support and documentation is ever evolving
 
-- Behavioural Driven Development (BDD Enabled) 
+- Behavioural Driven Development (BDD Enabled)
   - This methodology was chosen due to its language driven tests
   - The design and development around behavior a user expects
   - The test scenarios are easy to read for any novice and can be be combined with TDD methodolgy
@@ -62,8 +39,9 @@
 
 - Users can run the tests in multiple ways entire test suite
 
-  - `npm run test` or `npm test` will run all the tests that in the feature folder and its corresponding step definitions
+  - `npm run test` or `npm test` will run all the tests that in the feature folder and its corresponding step definitions for cucumber based tests
   - further `npx cucumber-js` will also run the same
+  - `npx playwright test` will run all the tests with .spec.ts file which are written in playwright framework
 
 - If user wants to particularly run a single feature file then
 

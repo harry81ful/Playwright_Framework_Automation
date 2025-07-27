@@ -51,12 +51,28 @@
         "metadata": {
           "actualWorkers": 1
         },
-        "id": "",
-        "name": "",
+        "id": "UI",
+        "name": "UI",
         "testDir": "C:/Users/khari/OneDrive/Desktop/Automations_Playwright/Playwright_Framework_Automation",
         "testIgnore": [],
         "testMatch": [
-          "tests/**/*.spec.ts"
+          "tests/UI/**/*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/khari/OneDrive/Desktop/Automations_Playwright/Playwright_Framework_Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "API",
+        "name": "API",
+        "testDir": "C:/Users/khari/OneDrive/Desktop/Automations_Playwright/Playwright_Framework_Automation",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/API/**/*.spec.ts"
         ],
         "timeout": 30000
       }
@@ -70,65 +86,57 @@
   },
   "suites": [
     {
-      "title": "tests\\UITC1.spec.ts",
-      "file": "tests/UITC1.spec.ts",
+      "title": "tests\\API\\APITC1.spec.ts",
+      "file": "tests/API/APITC1.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "@UITC1 - New user Registeration",
-          "file": "tests/UITC1.spec.ts",
-          "line": 4,
+          "title": "@APITC1 - GET all products list",
+          "file": "tests/API/APITC1.spec.ts",
+          "line": 2,
           "column": 6,
           "specs": [
             {
-              "title": "UITC1 - navigate to signup page enter the details and regiseration forms",
+              "title": "@APITC1 - GET all products list",
               "ok": true,
               "tags": [
-                "UITC1"
+                "APITC1",
+                "APITC1"
               ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "API",
+                  "projectName": "API",
                   "results": [
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7276,
+                      "duration": 806,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "User details: Edgardo Wisoky, Email: EdgardoWisoky@gmail.com\n"
-                        },
-                        {
-                          "text": "Test passed: UITC1 - navigate to signup page enter the details and regiseration forms\n"
+                          "text": "Test passed: @APITC1 - GET all products list\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-17T02:41:22.337Z",
+                      "startTime": "2025-07-27T21:50:48.750Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\khari\\OneDrive\\Desktop\\Automations_Playwright\\Playwright_Framework_Automation\\test-results\\tests-UITC1--UITC1---New-u-1aa31-ails-and-regiseration-forms\\test-finished-1.png"
-                        }
-                      ]
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "3960f13524d0f47d306a-106584437339ce0f44af",
-              "file": "tests/UITC1.spec.ts",
-              "line": 19,
+              "id": "c055706d44338e200c74-d3b7c1a473dab0dc36d8",
+              "file": "tests/API/APITC1.spec.ts",
+              "line": 11,
               "column": 7
             }
           ]
@@ -138,8 +146,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-17T02:41:21.641Z",
-    "duration": 8462.942,
+    "startTime": "2025-07-27T21:50:48.084Z",
+    "duration": 1492.4139999999998,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

@@ -4,7 +4,7 @@
   "description": "Self learning project to automate web applications and API using Playwright",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "tests/**/*.spec.ts"
   },
   "scripts": {
     "api": "DEBUG=pw:api npm run cucumber",

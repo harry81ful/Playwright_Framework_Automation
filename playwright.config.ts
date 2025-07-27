@@ -1,16 +1,26 @@
 import { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/**/*.spec.ts"],
-  use: {
-    baseURL: "https://automationexercise.com/",
-    headless: true, // Set to false if you want to see the browser during tests
-    screenshot: "on", // Take screenshots only on test failure
-    video: "retain-on-failure", // Record video only on test failure
-    launchOptions: {
-      slowMo: 50, // Slow down operations by 50ms for better visibility during debugging
+  projects: [
+    {
+      name: "UI",
+      testMatch: ["tests/UI/**/*.spec.ts"],
+      use: {
+        baseURL: "https://automationexercise.com/",
+        headless: false,
+        screenshot: "on",
+        video: "retain-on-failure",
+        launchOptions: { slowMo: 50 },
+      },
     },
-  },
+    {
+      name: "API",
+      testMatch: ["tests/API/**/*.spec.ts"],
+      use: {
+        baseURL: "https://automationexercise.com/api/",
+      },
+    },
+  ],
   //retries: 2, // Retry failed tests up to 2 times
   reporter: [
     ["dot"],
