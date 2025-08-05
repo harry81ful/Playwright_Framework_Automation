@@ -1,0 +1,2 @@
+User details: Austyn Hilll, Email: AustynHilll@gmail.com
+Test passed: UITC1 - navigate to signup page enter the details and regiseration forms

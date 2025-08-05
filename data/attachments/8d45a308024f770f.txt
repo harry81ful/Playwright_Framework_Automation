@@ -1,0 +1,2 @@
+User details: Carolina Moen-Kling, Email: CarolinaMoen-Kling@gmail.com
+Test passed: UITC1 - navigate to signup page enter the details and regiseration forms

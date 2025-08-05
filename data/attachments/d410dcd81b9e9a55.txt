@@ -1,0 +1,2 @@
+User details: Taylor Schneider, Email: TaylorSchneider@gmail.com
+Test passed: UITC1 - should display the correct heading on the home page
