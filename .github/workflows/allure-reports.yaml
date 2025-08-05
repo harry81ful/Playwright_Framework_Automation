@@ -1,4 +1,4 @@
-name: Deploy Allure Report Only
+name: Github actions
 
 on:
   push:
@@ -24,7 +24,10 @@ jobs:
 
       - name: Generate Allure report
         run: |
-          npx allure generate --clean ./allure-results -o ./allure-report
+          npx allure generate --clean reports/allure-results -o ./allure-report
+
+      - name: Format documents
+        run: npm run format
 
       - name: Deploy Allure report to GitHub Pages
         if: always()

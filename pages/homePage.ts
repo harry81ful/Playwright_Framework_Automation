@@ -54,7 +54,7 @@ export class homePageElements {
     const match = href?.match(/\/product_details\/(\d+)/);
     const productNumber = match ? match[1] : null;
     let productLink = this.page.locator(
-      `a[href="/product_details/${productNumber}"]`
+      `a[href="/product_details/${productNumber}"]`,
     );
     await productLink.click();
   }

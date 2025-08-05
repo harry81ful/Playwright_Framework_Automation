@@ -71,7 +71,7 @@ export class singupPageElements {
     // 2. Browser-level native validation (invalid email format)
     const emailValidationMessage = await this.page.evaluate(() => {
       const emailInput = document.querySelector(
-        "input[type='email']"
+        "input[type='email']",
       ) as HTMLInputElement;
       emailInput.reportValidity(); // triggers tooltip
       return emailInput.validationMessage;

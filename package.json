@@ -22,7 +22,8 @@
     "snippets": "npm run cucumber  features/**/*.feature --dry-run --format snippets",
     "all": "npm run cucumber features/**/*.feature",
     "test:parallel": "npm run cucumber  --parallel=2",
-    "allure": "allure open reports/allure-results"
+    "allure": "allure open reports/allure-results",
+    "tags": "playwright test --grep"
   },
   "repository": {
     "type": "git",

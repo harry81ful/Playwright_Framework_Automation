@@ -43,7 +43,7 @@ export class registrationFormPageElements {
     });
     this.accountInfoText = page.getByText("Enter Account Information");
     this.genderRadioButton = page.locator(
-      `input[name="title"][value="${gender}"]`
+      `input[name="title"][value="${gender}"]`,
     );
     this.newsLetterCheckbox = page.locator('input[name="newsletter"]');
     this.receiveOffersCheckbox = page.locator('input[name="optin"]');

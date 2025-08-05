@@ -7,7 +7,7 @@ const config: PlaywrightTestConfig = {
       testMatch: ["tests/UI/**/*.spec.ts"],
       use: {
         baseURL: "https://automationexercise.com/",
-        headless: true,
+        headless: false,
         screenshot: "on",
         video: "retain-on-failure",
         launchOptions: { slowMo: 50 },

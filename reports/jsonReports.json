@@ -86,20 +86,20 @@
   },
   "suites": [
     {
-      "title": "tests\\UI\\UITC1.spec.ts",
-      "file": "tests/UI/UITC1.spec.ts",
+      "title": "tests\\UI\\UITC2.spec.ts",
+      "file": "tests/UI/UITC2.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "@UITC1 - New user Registeration",
-          "file": "tests/UI/UITC1.spec.ts",
+          "file": "tests/UI/UITC2.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "UITC1 - navigate to signup page enter the details and regiseration forms",
+              "title": "UITC2- Login with vald user credentials",
               "ok": true,
               "tags": [
                 "UITC1"
@@ -116,25 +116,22 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7502,
+                      "duration": 5614,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "User details: Carolina Moen-Kling, Email: CarolinaMoen-Kling@gmail.com\n"
-                        },
-                        {
-                          "text": "Test passed: UITC1 - navigate to signup page enter the details and regiseration forms\n"
+                          "text": "Test passed: UITC2- Login with vald user credentials\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-05T21:51:00.992Z",
+                      "startTime": "2025-08-05T23:16:02.721Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\khari\\OneDrive\\Desktop\\Automations_Playwright\\Playwright_Framework_Automation\\test-results\\tests-UI-UITC1--UITC1---Ne-bc4b3-ails-and-regiseration-forms-UI\\test-finished-1.png"
+                          "path": "C:\\Users\\khari\\OneDrive\\Desktop\\Automations_Playwright\\Playwright_Framework_Automation\\test-results\\tests-UI-UITC2--UITC1---Ne-2a05e--with-vald-user-credentials-UI\\test-finished-1.png"
                         }
                       ]
                     }
@@ -142,8 +139,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "afb05f07e7ba452a168c-761caffac96a0feb3df2",
-              "file": "tests/UI/UITC1.spec.ts",
+              "id": "9d07d704e6b6717fd7d4-1972248233f03538bd65",
+              "file": "tests/UI/UITC2.spec.ts",
               "line": 18,
               "column": 7
             }
@@ -154,8 +151,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-05T21:51:00.242Z",
-    "duration": 8980.937,
+    "startTime": "2025-08-05T23:16:02.014Z",
+    "duration": 6771.914000000001,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
