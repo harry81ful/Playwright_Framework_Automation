@@ -86,57 +86,65 @@
   },
   "suites": [
     {
-      "title": "tests\\API\\APITC1.spec.ts",
-      "file": "tests/API/APITC1.spec.ts",
+      "title": "tests\\UI\\UITC1.spec.ts",
+      "file": "tests/UI/UITC1.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "@APITC1 - GET all products list",
-          "file": "tests/API/APITC1.spec.ts",
-          "line": 2,
+          "title": "@UITC1 - New user Registeration",
+          "file": "tests/UI/UITC1.spec.ts",
+          "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "@APITC1 - GET all products list",
+              "title": "UITC1 - navigate to signup page enter the details and regiseration forms",
               "ok": true,
               "tags": [
-                "APITC1",
-                "APITC1"
+                "UITC1"
               ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "API",
-                  "projectName": "API",
+                  "projectId": "UI",
+                  "projectName": "UI",
                   "results": [
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 806,
+                      "duration": 7502,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Test passed: @APITC1 - GET all products list\n"
+                          "text": "User details: Carolina Moen-Kling, Email: CarolinaMoen-Kling@gmail.com\n"
+                        },
+                        {
+                          "text": "Test passed: UITC1 - navigate to signup page enter the details and regiseration forms\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-27T21:50:48.750Z",
+                      "startTime": "2025-08-05T21:51:00.992Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\khari\\OneDrive\\Desktop\\Automations_Playwright\\Playwright_Framework_Automation\\test-results\\tests-UI-UITC1--UITC1---Ne-bc4b3-ails-and-regiseration-forms-UI\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c055706d44338e200c74-d3b7c1a473dab0dc36d8",
-              "file": "tests/API/APITC1.spec.ts",
-              "line": 11,
+              "id": "afb05f07e7ba452a168c-761caffac96a0feb3df2",
+              "file": "tests/UI/UITC1.spec.ts",
+              "line": 18,
               "column": 7
             }
           ]
@@ -146,8 +154,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-27T21:50:48.084Z",
-    "duration": 1492.4139999999998,
+    "startTime": "2025-08-05T21:51:00.242Z",
+    "duration": 8980.937,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
